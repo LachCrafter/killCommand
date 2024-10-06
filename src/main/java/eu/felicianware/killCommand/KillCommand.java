@@ -26,6 +26,7 @@ public final class KillCommand extends JavaPlugin {
                 player.setHealth(0.0);
                 return true;
             }
+            return false;
         }
     }
 }
